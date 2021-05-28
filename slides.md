@@ -195,7 +195,7 @@ Mais il a un avantage principal:
 ---
 
 
-# Google Home & Alexa
+# Google Assistant & Alexa
 utilisent uniquement les connecteurs clouds
 
 ![](alexa.jpg)
@@ -207,15 +207,18 @@ utilisent uniquement les connecteurs clouds
 ---
 
 
-# Google Home & Alexa (suite)
+# Google Assistant & Alexa (suite)
 
-|        	| KNX  	| Yeelight 	| Aqara  |  Tuya    | HomeKit | MQTT    |
-|---	    |---	|---	    |---	 |---       |---      |---      |
-|Google Home| $$ 	|    +    	|   +	 |    +     |   +     |   NA    |
-|Alexa      | $$ 	|    +    	|   +	 |    +     |   NA    |   NA    |
+|               	| KNX  	| Yeelight 	| Aqara  |  Tuya    | HomeKit | MQTT    | xAAL |
+|---	            |---	|---	    |---	 |---       |---      |---      |---   | 
+|Google Assistant   | $$ 	|    +    	|   +	 |    +     |   +     |   NA    | NA   |
+|Alexa              | $$ 	|    +    	|   +	 |    +     |   NA    |   NA    | --   |
 
 - Intégration DIY (OpenSource) est complexe. 
-- Hack divers et variés (Hue par ex), mais rien de concluant.
+- Hack divers et variés : 
+    - FauMo
+    - Hue
+    
 
 
 
