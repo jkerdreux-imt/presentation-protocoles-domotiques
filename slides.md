@@ -6,7 +6,7 @@ theme: default
 
 # Protocoles domotiques IP vs CPL, radios, filaires.. 
 
-Présentation d'un échantillons de protocoles domotiques (principalement sur IP).
+Présentation d'un échantillon de protocoles domotiques (principalement sur IP).
 
 ## Glossaire :
 - Device : Elément domotique => sonde de T°, luminaire, volet...
@@ -20,7 +20,7 @@ Présentation d'un échantillons de protocoles domotiques (principalement sur IP
 - RTS (Somfy)
 - X2D / X3D (Deltadore)
 - [Zigbee](https://zigbeealliance.org/fr/)
-- [Zwave](z-wavealliance.org)
+- [Zwave](http://z-wavealliance.org)
 
 # Quelques exemples filaires
 - X2D (CPL par Deltadore)
@@ -92,7 +92,7 @@ Attention, plusieurs versions du hub, des capteurs.
 
 ## Protocole local
 - Découverte via mutlticast (non standard, non SSDP)
-- Evénements via multicast (en clair)
+- Evénements via multicast sur un second port (en clair)
 - Commandes via socket UDP sur le device (hub, ou prises)
 - Chiffrées (AES), token tournant fourni par device (hub) toutes les 5sec
 - Clée de chiffrement par device (hub)
@@ -170,7 +170,7 @@ Mais il a un avantage principal:
 
 # xAAL [⭐](http://recherche.imt-atlantique.fr/xaal/)
 - Projet de recherche IMT depuis 2012
-- Première release public 2014 
+- Première release 2014
 - Multicast (découverte, évènements, action)
 - Chiffré avec [ChaCha20-Poly1305](https://en.wikipedia.org/wiki/Poly1305)
 - CBOR (depuis la 0.7, avant JSON)
@@ -218,7 +218,7 @@ utilisent uniquement les connecteurs clouds
 - Hack divers et variés : 
     - FauMo
     - Hue
-    
+
 
 
 
