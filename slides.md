@@ -94,7 +94,7 @@ Attention, plusieurs versions du hub, des capteurs.
 - Découverte via mutlticast (non standard, non SSDP)
 - Evénements via multicast (en clair)
 - Commandes via socket UDP sur le device (hub, ou prises)
-- Chiffrées via un token tournant fourni par device (hub) toutes les 5sec
+- Chiffrées (AES), token tournant fourni par device (hub) toutes les 5sec
 - Clée de chiffrement par device (hub)
 - Trames encodées en JSON
 - Trame de heartbeat
@@ -115,8 +115,8 @@ https://redmine.telecom-bretagne.eu/projects/xaal/repository/entry/code/Python/b
 # Tuya (toutes les autres chinoiseries) [⭐](https://www.banggood.com/fr/search/tuya.html?from=nav) 
 
 ## Protocole local
-- TCP
-- Clé de chiffrement par device
+- TCP (mono-connexion)
+- Clé de chiffrement par device (AES)
 - Pas de découverte
 - Ping/Pong sinon timeout
 - Trames encodées en JSON (avec des dps)
