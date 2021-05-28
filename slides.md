@@ -168,16 +168,30 @@ Mais il a un avantage principal:
 - Y a même un [shell over MQTT](https://github.com/jpmens/mqtt-launcher) ou presque
 ---
 
+# xAAL [⭐](http://recherche.imt-atlantique.fr/xaal/)
+- Projet de recherche IMT depuis 2012
+- Première release public 2014 
+- Multicast (découverte, évènements, action)
+- Chiffré avec [ChaCha20-Poly1305](https://en.wikipedia.org/wiki/Poly1305)
+- CBOR (depuis la 0.7, avant JSON)
+
+
+=> TP au prochain épisode ? :)
+
+---
+
+
 # Synthèse
 
-|        	| KNX  	| Yeelight 	| Aqara  |  Tuya    | HomeKit | MQTT    |
-|---	    |---	|---	    |---	 |---       |---      |---      |
-|Payload    |  Bin 	|   JSON   	|  JSON  |   JSON   |  JSON   |  what?  |
-|Typage	    |  ++  	|    0     	|   0	 |    0     |   +     |  what?  |
-|Sécurité  	|  + 	|    --    	|   +	 |    ++    |   ++    |    0    |
-|Simplicité |  + 	|    ++    	|   --	 |    +     |   --    |   +++   |
-|Fiabilité  | +++	|    0    	|   ++	 |    0+    |   --    |   +     |
-|DIY        | + 	|    NA    	|   NA	 |    ?     |   HB    |   ++    |
+|        	| KNX  	| Yeelight 	| Aqara  |  Tuya    | HomeKit | MQTT    | xAAL  |
+|---	    |---	|---	    |---	 |---       |---      |---      |---    |
+|Payload    |  Bin 	|   JSON   	|  JSON  |   JSON   |  JSON   |  what?  | CBOR  |
+|Typage	    |  ++  	|    0     	|   0	 |    0     |   +     |  what?  | ++    |
+|Sécurité  	|  + 	|    --    	|   +	 |    ++    |   ++    |    0    | ++    |
+|Simplicité |  + 	|    ++    	|   --	 |    +     |   --    |   +++   | ++    |
+|Fiabilité  | +++	|    0    	|   ++	 |    0+    |   --    |   +     | ++    |
+|Ecosystème | ++	|    +    	|   ++	 |    ++    |   +     |   +     | --    |
+|DIY        | + 	|    NA    	|   NA	 |    ?     |   HB    |   ++    | ++    |
 ---
 
 
