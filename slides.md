@@ -214,7 +214,8 @@ utilisent uniquement les connecteurs clouds
 |Google Assistant   | $$ 	|    +    	|   +	 |    +     |   +     |   NA    | NA   |
 |Alexa              | $$ 	|    +    	|   +	 |    +     |   NA    |   NA    | --   |
 
-- Intégration DIY (OpenSource) est complexe. 
+- Intégration DIY complexe
+- Passage par un tier payant comme [Nabu Casa](https://www.nabucasa.com)
 - Hack divers et variés : 
     - FauMo
     - Hue
